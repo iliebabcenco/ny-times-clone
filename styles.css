@@ -1,31 +1,122 @@
-header h1 {
-  font-style: italic;
-  font-family: Gill Sans, sans-serif;
-  text-align: center;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 5px;
 }
 
-body {
-  /* padding: 0;
-  margin: 0; */
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.first-article,
+.first-section-second-article,
+.third-section-second-article {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .nav-menu-top {
-  /* border: 1px solid gray;
-  margin: 0 auto 25px; */
+  border: 1px solid gainsboro;
+  margin: 0;
+  padding: 3px 10px 5px 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main {
-  /* width: 35%;
-  margin: 0 auto; */
+.mid-nav-div {
+  width: 60%;
+  text-align: center;
 }
 
-header img {
-  /* width: 1200px;
-  height: 675px; */
+.mid-nav-div img {
+  width: 200px;
+  text-align: center;
 }
 
-header {
-  /* margin: 0 auto; */
+.main-header img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
 
+.social-block-div {
+  text-align: center;
+}
+
+.main-story-div img {
+  width: 220px;
+  height: 120px;
+}
+
+.left-nav-div a img {
+  width: 20px;
+  margin: 5px;
+}
+
+.left-nav-div a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.right-nav-div a {
+  color: white;
+  background-color: #567b95;
+  border-radius: 3px;
+  font-family: helvetica, arial, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin: 3px;
+}
+
+.main-header figure img {
+  width: 945px;
+  height: 532px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.main-header {
+  color: gray;
+  width: 945px;
+  font-size: 15px;
+  margin: 50px auto;
+}
+
+.main-header h1,
+.main-header hr {
+  font-style: italic;
+  font-family: Gill Sans, sans-serif;
+  text-align: center;
+  color: black;
+  width: 600px;
+  margin: 15px auto;
+}
+
+.main-story-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.second-section-second-article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+}
+
+.story-div {
+  width: 220px;
+  margin: 5px auto;
+}
