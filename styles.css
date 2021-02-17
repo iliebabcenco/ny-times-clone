@@ -55,11 +55,18 @@ main aside a {
 .nav-menu-top {
   border: 1px solid gainsboro;
   margin: 0;
-  padding: 3px 125px 5px 125px;
   list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.right-nav-div {
+  margin-right: 1%;
 }
 
 .mid-nav-div {
@@ -152,7 +159,7 @@ main aside img {
   font-weight: bold;
   font-size: 12px;
   padding: 10px;
-  margin: 3px;
+  margin-right: 5px;
 }
 
 .popular-aside a {
@@ -322,7 +329,7 @@ main aside {
   width: 245px;
   height: 240px;
   color: black;
-  margin-right: 150px;
+  margin-right: 3%;
   line-height: 20px;
 }
 
