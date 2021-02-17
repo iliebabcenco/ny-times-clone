@@ -165,9 +165,25 @@ main aside img {
   text-decoration: none;
 }
 
+.bottom-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.page-footer a {
+  color: gray;
+  font-size: 11px;
+  text-decoration: none;
+}
+
 .first-article h5 a {
   color: #326891;
   text-decoration: none;
+}
+
+
+.first-article h5 {
+  text-align: center;
 }
 
 .main-header .social-block-div a,
@@ -338,7 +354,8 @@ main aside {
 }
 
 .bottom-section,
-.bottom-nav {
+.bottom-nav,
+.page-footer {
   width: 1220px;
   margin: 0 auto;
 }
@@ -400,7 +417,8 @@ main aside {
   line-height: 22px;
 }
 
-.bottom-nav hr {
+.bottom-nav hr,
+.page-footer hr {
   border-bottom: 2px double gray;
 }
 
@@ -428,4 +446,13 @@ main aside {
 
 .bottom-nav-section ul {
   padding-left: 0;
+}
+
+.page-footer ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 11px;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 15px;
 }
