@@ -2,7 +2,15 @@
 
 # New York Times Clone
 
-> This is a clone of New York Times page.
+> This is a clone of New York Times article page.
+There I have applied semantic HTML, Embedding images, The box model, Flexbox, Floats, Grids, Positioning.
+It has:
+- a fixed navbar at the top;
+- a header with embedded image;
+- main-content of article;
+- a social compartimet at the bottom of page;
+- another navbar at bottom;
+- footer.
 
 
 ## Built With
