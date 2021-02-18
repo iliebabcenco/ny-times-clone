@@ -22,6 +22,7 @@
             <a href="#"><img src="assets/images/Logo.png" alt="logo"></a>
         </div>
         <div class="nav-div right-nav-div">
+            <a href="#section1">Leave a comment</a>
             <a href="#">Subscribe now</a>
             <a href="#">Log in</a>
         </div>
@@ -407,22 +408,31 @@
 
     </main>
 
-    <section class="form-section">
+    <section class="form-section" onclick="">
+        <span class="anchor" id="section1"></span>
+        <h4 id="h4id">Leave your comments</h4>
         <form action="/index.html" method="GET" class="collapsible">
             <label for="name">Name: </label>
             <input type="text" id="name" required>
+            <br>
             <label for="email">Email: </label>
             <input type="email" id="email" required>
+            <br>
             <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="“Type your comment here…”"
                 required></textarea>
+            <p>What is your overall opinion about this article?</p>
             <label for="pos-radio">Positive</label>
-            <input type="radio" id="pos-radio" class="radioButton" checked>
+            <input type="radio" id="pos-radio" name="radioButton" checked>
+            <br>
             <label for="neut-radio">Neutral</label>
-            <input type="radio" id="neut-radio" class="radioButton">
+            <input type="radio" id="neut-radio" name="radioButton">
+            <br>
             <label for="negat-radio">Negative</label>
-            <input type="radio" id="negat-radio" class="radioButton">
+            <input type="radio" id="negat-radio" name="radioButton">
+            <br>
             <label for="news-check">“I want to subscribe to the newsletter”</label>
             <input type="checkbox" id="news-check">
+            <br>
             <input type="submit" value="Send" id="submit-button">
         </form>
     </section>
@@ -475,24 +485,26 @@
         <section class="sugges-section">
             <div>
                 <img src="./assets/images/sug1.png" alt="">
-                <p>DAILY</p>
+                <p class="sugges-section-period-p">DAILY</p>
                 <h4>The Morning</h4>
-                <p>Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you through
+                <p class="sugges-section-content-p"> Make sense of the day's news and ideas. David Leonhardt and Times
+                    journalists guide you through
                     what's happening - and why it matters</p>
                 <a href="#">See the latest</a>
             </div>
             <div>
                 <img src="./assets/images/sug2.png" alt="">
-                <p>AS NEEDED</p>
+                <p class="sugges-section-period-p">AS NEEDED</p>
                 <h4>Beaking News</h4>
-                <p>Alerts when important news breaks around the world.</p>
+                <p class="sugges-section-content-p">Alerts when important news breaks around the world.</p>
                 <a href="#">See the latest</a>
             </div>
             <div>
                 <img src="./assets/images/sug3.png" alt="">
-                <p>WEEKLY</p>
+                <p class="sugges-section-period-p">WEEKLY</p>
                 <h4>At Home</h4>
-                <p>Our best suggestions for how to live a full and cultured life during the pandemic, at home.</p>
+                <p class="sugges-section-content-p">Our best suggestions for how to live a full and cultured life during
+                    the pandemic, at home.</p>
                 <a href="#">See the latest</a>
             </div>
         </section>
@@ -667,6 +679,7 @@
             </div>
         </section>
     </nav>
+
     <footer class="page-footer">
         <hr>
         <ul>
