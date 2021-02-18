@@ -408,18 +408,18 @@
 
     </main>
 
-    <section class="form-section" onclick="">
+    <section class="form-section">
         <span class="anchor" id="section1"></span>
         <h4 id="h4id">Leave your comments</h4>
         <form action="/index.html" method="GET" class="collapsible">
             <label for="name">Name: </label>
-            <input type="text" id="name" required>
+            <input type="text" id="name" required maxlength="20">
             <br>
             <label for="email">Email: </label>
-            <input type="email" id="email" required>
+            <input type="email" id="email" required maxlength="20">
             <br>
             <textarea name="text-area" id="text-area" cols="30" rows="10" placeholder="“Type your comment here…”"
-                required></textarea>
+                required maxlength="250"></textarea>
             <p>What is your overall opinion about this article?</p>
             <label for="pos-radio">Positive</label>
             <input type="radio" id="pos-radio" name="radioButton" checked>
