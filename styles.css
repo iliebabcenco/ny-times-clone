@@ -285,6 +285,10 @@ main aside img {
   color: gray;
 }
 
+.form-section p {
+  margin: 0;
+}
+
 .second-section-second-article footer p {
   margin-top: 0;
   font-size: 14px;
@@ -461,4 +465,59 @@ main aside {
   justify-content: space-between;
   padding-left: 0;
   margin: 15px;
+}
+
+.form-section {
+  border: 1px solid #567b95;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  width: 475px;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  font-family: 'URW Chancery L', cursive;
+}
+
+.form-section h4 {
+  margin: 10px 0 20px 0;
+}
+
+.form-section textarea {
+  margin-top: 15px;
+  width: 350px;
+  resize: none;
+}
+
+.form-section #name,
+.form-section #email,
+.form-section textarea {
+  border: 1px solid gray;
+}
+
+.form-section #submit-button {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #567b95;
+  width: 400px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.sugges-section-content-p {
+  clear: both;
+  margin-top: 0;
+}
+
+.sugges-section-period-p {
+  margin: 0;
+}
+
+.anchor {
+  display: block;
+  height: 115px;
+  margin-top: -115px;
+  visibility: hidden;
 }
